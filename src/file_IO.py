@@ -14,7 +14,6 @@ def write_median(outfile, result, num_tweets):
         writer.writerow(["{0:.1f}".format(result)])
         
 
-#file.write("{:<27} {}\n".format(*item))
 def write_wordcount(outfile, words_dict):
     with open(outfile, 'wb') as ff:
         writer = csv.writer(ff, delimiter='\t', quoting=csv.QUOTE_NONE)
