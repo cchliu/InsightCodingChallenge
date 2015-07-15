@@ -41,7 +41,7 @@ The program is implemented in _Python_. Python version is Python 2.7.6. No addit
         ├── file_IO.py
     a) Heap class is defined in Heap.py
     b) I/O functions are defined in file_IO.py
-    c) Two solutions for calculating streaming median is defined in cal_streaming_median.py.
+    c) Two solutions for calculating streaming median are defined in cal_streaming_median.py.
     d) Tweets_v1.py and Tweets_v2.py are the same in implementing feature #1, but differ at feature #2.
        Tweets_v1.py uses "counting sort" algorithm to calculate streaming median.
        Tweets_v2.py uses "max heap/min heap" algorithm to calculate streaming median.
