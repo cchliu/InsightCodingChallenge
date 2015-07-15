@@ -25,7 +25,7 @@ frequency of this word appeared so far.
 
 	- Tweets_v2.py uses this algorithm to realize feature #2. 
     
-- c) While method b) is efficient, it is a more general solution because it can be used for most of the data types. With that said, there may exist a specialized solution for this paritcular problem which is more efficient both in time and space, if taking into account the characteristis of tweets. And the answer is YES. Since Twitter limits tweet length to 140 characters, we may well use counting sort algorithm, whose time complexity is *O(kn)*, *k* is a constant and space complexity is *O(k)*. 
+- c) While method b) is efficient, it is a more general solution because it applies for most of the data types. With that said, there may exist a specialized solution for this paritcular problem which is more efficient both in time and space, if taking into account the characteristics of tweets. And the answer is YES. Since Twitter limits tweet length to 140 characters, we may well use counting sort algorithm, whose time complexity is *O(kn)*, *k* is a constant and space complexity is *O(k)*. 
 
 	- Tweets_v1.py uses this algorithm to realize feature #2. 
 
